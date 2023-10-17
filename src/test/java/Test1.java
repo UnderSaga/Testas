@@ -3,11 +3,12 @@ import io.qameta.allure.Epic;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import steps.PasswordSteps;
 
 @Epic("Первая группа")
 public class Test1 {
 
-    Steps step = new Steps();
+    PasswordSteps step = new PasswordSteps();
 
     String password;
 

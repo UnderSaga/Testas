@@ -1,8 +1,10 @@
+package steps;
+
 import io.qameta.allure.Step;
 
 import static org.testng.Assert.assertTrue;
 
-public class Steps {
+public class PasswordSteps {
     @Step("Проверка длинны пароля...")
     public void lengthTest(String password) {
         assertTrue(password.length() > 8);
